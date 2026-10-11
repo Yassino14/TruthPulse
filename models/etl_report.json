@@ -1,0 +1,28 @@
+{
+    "sentiment": {
+        "dataset": "Social Media Sentiment",
+        "initial_rows": 1600000,
+        "duplicates_removed": 18534,
+        "processed_rows": 80000,
+        "positive_count": 40000,
+        "negative_count": 40000,
+        "avg_words_per_tweet": 12.71
+    },
+    "fake_news": {
+        "dataset": "Fake News & Misinformation",
+        "initial_rows": 12999,
+        "non_english_dropped": 596,
+        "duplicates_removed": 148,
+        "clean_rows": 12011,
+        "categories_distribution": {
+            "Fabricated / BS": 10639,
+            "Extreme Bias": 417,
+            "Conspiracy Theory": 390,
+            "Hate Speech": 243,
+            "State Propaganda": 120,
+            "Junk Science": 102,
+            "Satire": 100
+        },
+        "avg_words_per_article": 666.27
+    }
+}
